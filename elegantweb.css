@@ -1,0 +1,47 @@
+.encabezado{
+    background-color:rgb(15, 15, 14);
+    font-size:80px;
+    width:2800px;
+    height:80px;
+    text-align:center;
+}
+
+.todo{
+    background-color:beige 
+}
+
+h1{
+    color:rgb(207, 178, 151);
+}
+
+h2{
+    color:rgb(80, 50, 17)
+}
+
+p{
+    color:brown
+}
+
+.horizontal{
+    display: flex;
+
+}
+
+@media(max-width: 500px){
+    .horizontal{
+        flex-direction: column;
+    }
+}
+
+.texto{
+    text-align:center;
+    font-size:30px;
+}
+
+.piepagina{
+    background-color:rgb(15, 15, 14);
+    font-size:30px;
+    width:2800px;
+    height:400px;
+    text-align:center;
+}
